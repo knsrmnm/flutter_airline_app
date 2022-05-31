@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_airline_app/screens/ticket_screen.dart';
+import 'package:flutter_airline_app/screens/seat_select_screen.dart';
 
 void main() {
   runApp(MyApp());
@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
       ),
-      home: TicketScreen()
+      home: SeatSelectScreen()
     );
   }
 }
